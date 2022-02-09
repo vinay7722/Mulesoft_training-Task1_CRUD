@@ -4,7 +4,7 @@ connection = sqlite3.connect('movies.db')   # connect method is responsible for 
 cursor = connection.cursor()
 
 #update query
-updateCommand = "UPDATE details SET name = 'test'"
+updateCommand = "UPDATE adventurousMovies SET name = 'test'"
 
 # execute method method is responsible for firing the query that we pass as a parameter
 cursor.execute(updateCommand)

@@ -4,7 +4,7 @@ connection = sqlite3.connect('movies.db')   # connect method is responsible for 
 cursor = connection.cursor()
 
 #select query
-selectCommand = "SELECT * FROM details"
+selectCommand = "SELECT * FROM adventurousMovies"
 
 # execute method method is responsible for firing the query that we pass as a parameter
 cursor.execute(selectCommand)

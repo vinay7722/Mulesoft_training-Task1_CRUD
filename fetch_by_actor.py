@@ -4,7 +4,7 @@ connection = sqlite3.connect('movies.db')   # connect method is responsible for 
 cursor = connection.cursor()
 
 #select query
-selectCommand = "SELECT * FROM details where actor = 'Zaheer Iqbal'"
+selectCommand = "SELECT * FROM adventurousMovies where actor = 'Robert Downey Jr.'"
 
 # execute method method is responsible for firing the query that we pass as a parameter
 cursor.execute(selectCommand)
